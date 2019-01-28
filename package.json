@@ -29,9 +29,6 @@
     "lint": "esw ./src --color",
     "dev:build": "webpack --config webpack.dev.config"
   },
-  "eslintConfig": {
-    "extends": "web-react"
-  },
   "browserslist": [
     ">0.2%",
     "not dead",
