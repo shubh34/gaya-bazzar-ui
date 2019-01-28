@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "gaya-bazzar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +16,7 @@
     "clean-webpack-plugin": "^1.0.1",
     "css-loader": "^2.1.0",
     "eslint-config-web-react": "git+ssh://git@github.com/shubh34/eslint-config-web-react.git#develop",
+    "html-webpack-plugin": "^3.2.0",
     "pre-git": "^3.17.1",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.0",
