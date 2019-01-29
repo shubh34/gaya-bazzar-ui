@@ -51,7 +51,8 @@
   "config": {
     "pre-git": {
       "pre-commit": [
-        "npm run lint"
+        "npm run lint",
+        "npm run format"
       ],
       "pre-push": [],
       "post-commit": [],
