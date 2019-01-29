@@ -54,7 +54,7 @@
         "npm run lint",
         "npm run format"
       ],
-      "pre-push": [],
+      "pre-push": ["npm run test"],
       "post-commit": [],
       "post-checkout": [],
       "post-merge": []
