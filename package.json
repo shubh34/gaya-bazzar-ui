@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3"
+    "react-redux": "^6.0.0",
+    "react-scripts": "2.1.3",
+    "redux": "^4.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -28,7 +30,7 @@
     "eslint-config-web-react": "git+ssh://git@github.com/shubh34/eslint-config-web-react.git#develop"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode='development' --config webpack.dev.config",
+    "start": "webpack-dev-server --mode='development' --config webpack.dev.config --open",
     "build": "webpack --config webpack.dev.config",
     "eject": "react-scripts eject",
     "lint": "esw ./src --color",
@@ -54,7 +56,9 @@
         "npm run lint",
         "npm run format"
       ],
-      "pre-push": ["npm run test"],
+      "pre-push": [
+        "npm run test"
+      ],
       "post-commit": [],
       "post-checkout": [],
       "post-merge": []
