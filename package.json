@@ -25,6 +25,7 @@
     "jest": "^24.0.0",
     "pre-git": "^3.17.1",
     "prettier": "^1.17.0",
+    "redux-devtools-extension": "^2.13.8",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1",
