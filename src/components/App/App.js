@@ -1,8 +1,8 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import createStore from '../../store';
+import configureStore from '../../store';
 
-const store = createStore(['test']);
+const store = configureStore(['test']);
 
 const App = () => (
 	<Provider store={store}>
