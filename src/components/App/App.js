@@ -6,7 +6,7 @@ import {
 import { Provider } from 'react-redux';
 
 import configureStore from '../../store';
-import logo from '../../gaya-bazzar.svg';
+
 
 const store = configureStore(['test']);
 
@@ -16,7 +16,7 @@ const App = () => (
 			<Container>
 				<Menu inverted color="blue">
 					<Menu.Item as="a" header>
-						<Image src={logo} alt="test" />
+						<Image src="" alt="test" />
 			Project Name
 					</Menu.Item>
 					<Menu.Item as="a">Home</Menu.Item>
