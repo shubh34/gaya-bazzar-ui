@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "file-loader": "^3.0.1",
+    "lodash": "^4.17.11",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.86.0",
+    "url-loader": "^1.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
@@ -27,6 +32,7 @@
     "prettier": "^1.17.0",
     "redux-devtools-extension": "^2.13.8",
     "style-loader": "^0.23.1",
+    "svg-inline-loader": "^0.8.0",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14"
@@ -39,7 +45,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --colors",
-    "format": "prettier --config ./.prettierrc --write ./src/**/*.js"
+    "format": "prettier --config ./.prettierrc --write ./src/**/*.js",
+    "heroku-prebuild": "npm install --dev"
   },
   "browserslist": [
     ">0.2%",
