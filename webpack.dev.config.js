@@ -35,9 +35,16 @@ module.exports = {
 		path: path.resolve(__dirname, 'dist'),
 	},
 	devServer: {
-		contentBase: path.join(__dirname, 'dist'),
+		// contentBase
+		static: {
+			directory: path.join(__dirname, 'dist'),
+		},
 		compress: true,
-		port: 9000,
-		hot: true,
+		port: 3000,
+		// publicPath
+		devMiddleware: {
+			publicPath: 'http://localhost:3000/',
+		},
+		hot: 'only',
 	},
 };
